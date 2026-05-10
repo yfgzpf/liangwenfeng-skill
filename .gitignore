@@ -1,0 +1,38 @@
+# 梁文锋式创新思维技能
+
+## 什么是 .gitignore
+
+此文件用于排除不应提交到 Git 仓库的文件。
+
+## 排除规则
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+
+# 环境变量
+.env
+
+# 无用的临时文件
+*.tmp
+*.log
